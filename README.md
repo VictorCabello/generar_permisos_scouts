@@ -25,15 +25,10 @@ python -m generar_permisos_scouts.cli \
 
 Los PDFs generados se guardan en el directorio `output`.
 
-## Requisitos
+## Instalacion
 
-- Python 3.10+
-- pypdf
-- reportlab
-- tqdm
-
-Instala las dependencias:
+Para instalar corre el siguiente comando:
 
 ```bash
-pip install pypdf reportlab tqdm
+pip install git+https://github.com/VictorCabello/generar_permisos_scouts.git
 ```
