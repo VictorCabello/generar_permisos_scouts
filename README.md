@@ -19,9 +19,9 @@ python -m generar_permisos_scouts.cli \
   --template ruta/a/template.pdf
 ```
 
-- `--scouts`: Ruta al archivo Excel con información de scouts (por defecto: scouts.xlsx)
-- `--activities`: Ruta al archivo Excel con información de actividades (por defecto: activities.xlsx)
-- `--template`: Ruta al archivo de plantilla PDF (por defecto: template.pdf)
+- `--scouts`: Ruta al archivo Excel con información de scouts este archivo debe ser producido desde el reporteador de [sisas](https://sisas.scouts.org.mx/) (por defecto: scouts.xlsx).
+- `--activities`: Ruta al archivo Excel con información de actividades, el archivo debe tener las mismas culumnas y tipo de celdas que el archivo [en assets](./assets/activities.xlsx) (por defecto: activities.xlsx)
+- `--template`: Ruta al archivo de plantilla PDF, y debe ser una copia del [archivo en assets](.assets/template.pdf) (por defecto: template.pdf)
 
 Los PDFs generados se guardan en el directorio `output`.
 
