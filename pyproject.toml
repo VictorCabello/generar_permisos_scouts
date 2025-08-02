@@ -128,7 +128,14 @@ dependencies = ["pypdf", "reportlab", "pandas", "openpyxl", "tqdm"]
 # referred to as "extras". For a more extensive definition see:
 # https://packaging.python.org/en/latest/specifications/dependency-specifiers/#extras
 [project.optional-dependencies]
-dev = ["check-manifest", "neovim", "python-lsp-server[all]", "pyright", "nox"]
+dev = [
+    "check-manifest",
+    "neovim",
+    "python-lsp-server[all]",
+    "pyright",
+    "ipython",
+    "nox"
+]
 test = ["coverage", "nox"]
 
 # List URLs that are relevant to your project
